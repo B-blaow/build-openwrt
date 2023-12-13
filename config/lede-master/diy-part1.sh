@@ -12,3 +12,4 @@
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
 
+sed -i '$a src-git helloworld https://github.com/fw876/helloworld.git;main' feeds.conf.default
